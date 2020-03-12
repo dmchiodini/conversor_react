@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import moeda from './moeda.png';
 
 import Conversor from './components/Conversor';
+
+
 
 class App extends Component {
 
@@ -9,9 +12,9 @@ class App extends Component {
   return (
     <div className="app">
       <header className="top">
-        <img src="moeda.png" />
+        <img src={moeda} alt="moeda" />
         <h2>CONVERSOR DE MOEDAS</h2>
-        <img src="moeda.png" />
+        <img src={moeda} alt="moeda" />
       </header>
       <div className="container">
         <div className="linha">
