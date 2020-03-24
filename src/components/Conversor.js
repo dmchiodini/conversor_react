@@ -19,7 +19,7 @@ export default class Conversor extends Component {
     converter(){
 
         let de_para = `${this.state.moedaA.substring(3,0)}_${this.state.moedaB.substring(3,0)}`;
-        let url = `http://free.currconv.com/api/v7/convert?apiKey=do-not-use-this-key&q=${de_para}&compact=y`
+        let url = `http://free.currconv.com/api/v7/convert?apiKey=fef84c2676633f22089b&q=${de_para}&compact=y`
 
         fetch(url)
         .then(res=>{
@@ -59,7 +59,7 @@ export default class Conversor extends Component {
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="basic-addon1">{this.state.moedaB.substring(6, 0)}</span>
                                 </div>
-                                <input type="text" class="form-control" value={this.state.moedaB_valor} aria-label="Usuário" aria-describedby="basic-addon1" />
+                                <input type="text" class="form-control" value={this.state.moedaB_valor} aria-label="Usuário" aria-describedby="basic-addon1" disabled />
                             </div>
                         </div>                              
                     </div>
