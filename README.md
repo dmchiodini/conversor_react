@@ -2,9 +2,9 @@
 <h1>Conversor de moedas</h1>
 
 Conversão para as seguintes moedas: 
-BRL R$ - Real
-USD $ - Dólar
-EUR € - Euro
+BRL R$ - Real<br/>
+USD $ - Dólar<br/>
+EUR € - Euro<br/>
 GBP £ - Libra Esterlina
 CAD $ - Dólar Canadense 
 AUD $ - Dólar Australiano
