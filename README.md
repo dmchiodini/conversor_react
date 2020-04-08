@@ -1,6 +1,6 @@
 <h1>Conversor de moedas - React</h1>
 
-Conversão para as seguintes moedas:<br/>
+Conversão entre as seguintes moedas:<br/><br/>
 BRL R$ - Real<br/>
 USD $ - Dólar<br/>
 EUR € - Euro<br/>
